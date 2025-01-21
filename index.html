@@ -1,0 +1,38 @@
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRE4eF8WVTKfbHhuQ8DUz5Ekj2mPFS2GfcCAWso9PhcNlxxQQZqQdAKXG6om4Oc5L1x4sjOrsxFiQyt/pubhtml
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .grid-item img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div id="data-container" class="grid-container">
+        <!-- Grid items will be loaded here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
