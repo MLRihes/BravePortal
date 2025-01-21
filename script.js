@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const sheetId = '1RueU19mF9-Oe5rVrPs7ITgtm8Dddz0zjT10OKjMr0j0'; // Replace with your actual spreadsheet ID
-    const url = `https://docs.google.com/spreadsheets/d/${1RueU19mF9-Oe5rVrPs7ITgtm8Dddz0zjT10OKjMr0j0}/gviz/tq?tqx=out:csv`;
+    const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv`;
 
     fetch(url)
     .then(response => response.text())
